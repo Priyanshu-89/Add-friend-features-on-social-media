@@ -1,0 +1,62 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html , body{
+         height:100%;
+         width:100%;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #333;
+    }
+    #friend{
+        height: 350px;
+        width: 300px;
+        background-color: #dadada;
+        border-radius: 8px;
+        text-align: center;
+    }
+    #friend img{
+        height: 60%;
+        width: 100%;
+        border-radius: 30px;
+        padding: 20px;
+        object-fit: cover;
+     }
+
+    #friend h2{
+        font-size: 28px;
+        font-family: sans-serif;
+    }
+
+    #friend h5{
+        font-size: 25px;
+        margin: 12px;
+       
+    }
+
+    #friend button{
+        border: none;
+        outline: none;
+        background-color: maroon;
+        color: bisque;
+        font-weight: 600;
+        padding: 12px 18px;
+        border-radius: 30px;
+        
+        cursor: pointer;
+    }
+    /* #btn #remove{
+        border: none;
+        outline: none;
+        background-color: bisque;
+        color: maroon;
+        font-weight: 600;
+        padding: 12px 18px;
+        border-radius: 30px;
+        cursor: pointer;
+    } */
